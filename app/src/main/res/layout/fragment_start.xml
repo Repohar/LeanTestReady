@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.leantest.StartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/quiz_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/welcome_text"
+            style="@style/Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Welcome_msg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/explanText"
+            style="@style/Explain_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Explain_text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/inputNameText"
+            style="@style/input_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/give_name" />
+
+        <EditText
+            android:id="@+id/name_input_field"
+            style="@style/edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<Button-->
+        <!--android:id="@+id/Start_quiz_button"-->
+        <!--style="@style/buttons"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:onClick="startQuiz"-->
+        <!--android:text="Start quiz" />-->
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

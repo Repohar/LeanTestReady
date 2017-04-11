@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutQ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragmentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/nameInTHeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/nameHeader"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question1"
+            style="@style/Questions"
+            android:layout_below="@id/nameInTHeHeader"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/question1">
+
+            <RadioButton
+                android:id="@+id/radio_buttonQ1a"
+                style="@style/radio_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/Question1_a" />
+
+            <RadioButton
+                android:id="@+id/radio_buttonQ1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Question1_b"
+                style="@style/radio_buttons"/>
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/result_logo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/radioGroup"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/bottomTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/result_logo">
+
+
+            <TextView
+                android:id="@+id/correctionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                style="@style/correction"
+                android:layout_below="@id/result_logo"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

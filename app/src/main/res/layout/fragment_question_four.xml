@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.leantest.QuestionFour"
+    android:background="@drawable/background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameInTHeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/nameHeader"
+            android:text="Name"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question4"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio_buttonQ4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Question4_a"
+                android:layout_marginBottom="12dp"
+                style="@style/radio_buttons"/>
+            <RadioButton
+                android:id="@+id/radio_buttonQ4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Question4_b"
+                style="@style/radio_buttons"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</FrameLayout>

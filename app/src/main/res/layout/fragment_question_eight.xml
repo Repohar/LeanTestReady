@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.leantest.QuestionEight"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameInTHeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/nameHeader"
+            android:text="Name"/>
+
+        <TextView
+            style="@style/Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="60dp">
+
+            <CheckBox
+                android:id="@+id/CB_q8_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Question8_a" />
+
+            <CheckBox
+                android:id="@+id/CB_q8_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/CB_q8_a"
+                android:text="@string/Question8_b" />
+
+            <CheckBox
+                android:id="@+id/CB_q8_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/CB_q8_a"
+                android:text="@string/Question8_c" />
+
+            <CheckBox
+                android:id="@+id/CB_q8_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/CB_q8_b"
+                android:layout_toRightOf="@id/CB_q8_c"
+                android:text="@string/Question8_d" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

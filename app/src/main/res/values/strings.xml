@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">LeanTest</string>
+
+
+    <string name="Welcome_msg">Welcome to the LeanQuiz App</string>
+
+    <string name="Explain_text">With this Quiz, I would like to show you some calculation method as well as some good example of the Lean thinking.
+    after you complete this Quiz, you will have some basic image about the Lean. Some hint: OEE means - Overall Equipment Effectiveness. Think before answer :)</string>
+
+
+    <string name="give_name">Please give your name:</string>
+    <string name="empty"></string>
+
+    <string name="Wrong_answer">The answer is wrong! Remaining tries: </string>
+    <string name="Good_answer">The answer is correct!</string>
+    <string name="Show_answer">Show answer</string>
+
+
+    //questions
+    <string name="Question1">8/1. Which situation would you choose if you want to achive the biggest output?</string>
+    <string name="Question1_a">Running 3 machinges with 60% OEE</string>
+    <string name="Question1_b">Running 2 machinges with 90% OEE</string>
+    <string name="correction1">Correct answer: B, you need less peaple, less amortization and less energy consumption to operate</string>
+
+    <string name="Question2">2. Which one is my better machine?</string>
+    <string name="Question2_a">Machine A: Rate to Plan= 50%, Utilization= 100, Yield= 98</string>
+    <string name="Question2_b">Machine B: Rate to Plan= 85%, Utilization= 90, Yield= 85</string>
+    <string name="correction2">Correct answer: B, OEE = Rate to plan * Utilization * Yield; A=49%, B=65%</string>
+
+    <string name="Question3">3.	I had 96 minutes of unplanned downtime of a 8 hours shift. What is my utilization value in percentage?</string>
+
+    <string name="Question4">4. What is 5s?</string>
+    <string name="Question4_a">5s is a method to keep a workplace in order, safe and clean.</string>
+    <string name="Question4_b">5s is a model of the BMW</string>
+
+    <string name="Question5">5. Which picture shows a good example of 5s?</string>
+
+
+    <string name="Question6">6. What is Poka-yoke?</string>
+    <string name="Question6_a">Poka-yoke is a Japanese soda drink</string>
+    <string name="Question6_b">Poka-yoke is a mistake proofing method</string>
+
+    <string name="Question7">7. Which one is a good example for Poka-yoke?</string>
+
+    <string name="Question8">8. Which components are part of the OEE? (multiple selection)</string>
+    <string name="Question8_a">Performance</string>
+    <string name="Question8_b">Utilization</string>
+    <string name="Question8_c">Yield</string>
+    <string name="Question8_d">Gross profit</string>
+
+    <string name="Result_text">Congratulations! Your Quiz score is:</string>
+    <string name="Resutl_score"> 0 points </string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_quiz_button">Start Quiz</string>
+    <string name="next_button">next</string>
+
+
+</resources>
+
